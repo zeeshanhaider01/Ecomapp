@@ -1,0 +1,16 @@
+.main{
+    margin:200px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.title{
+    position: relative;
+    top: -20px;
+    left: -100px;
+}
+/* .form{
+    border: 2px solid lightblue;
+} */

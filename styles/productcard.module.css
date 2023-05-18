@@ -1,0 +1,187 @@
+.productcard{
+    width: 195px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 2%;
+}
+
+.productcard:hover{
+    box-shadow: 1px 1px 4px black;
+}
+.productcard_imgdiv{
+    width: 140px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.productcard_imgdiv_img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.productcard_detaildiv{
+    color:#0e77ca
+}
+.productcard_detaildiv_category{}
+.productcard_detaildiv_title{
+    height: 36px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.productcard_priceratingdiv{
+    width: 100%;
+}
+.productcard_priceratingdiv_price{
+    font-size: 18px;
+    color: #f85606;
+    letter-spacing: 0.56px;
+    line-height: 22px;
+}
+.productcard_priceratingdiv_ratediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 5px;
+    width: 100%;
+}
+.productcard_priceratingdiv_ratediv_title{
+
+}
+.productcard_priceratingdiv_ratediv_datadiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.productcard_priceratingdiv_ratediv_datadiv_rangedivmain{
+    width: 70%;
+    height: 20px;
+    border-radius: 5%;
+    border-color: burlywood;
+    background-color: #eff0f5;
+}
+.productcard_priceratingdiv_ratediv_datadiv_rangedivmain_range{
+    background-color: #faca51;
+    height: 20px;
+}
+.productcard_priceratingdiv_ratediv_datadiv_count{
+    position: relative;
+    right: 9px;
+    top: -1px;
+}
+
+.productcard_priceratingdiv_ratediv_cartdiv{
+    display: flex;
+    justify-content: center;
+}
+.productcard_priceratingdiv_ratediv_cartdiv_button{}
+.productcard_priceratingdiv_ratediv_cartdiv_title{}
+
+
+
+@media screen and (max-width:414px) {
+    .productcard{
+        width: 170px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+        padding: 10px;
+        border: 1px solid antiquewhite;
+        border-radius: 2%;
+    }
+    
+    .productcard:hover{
+        box-shadow: 1px 1px 4px black;
+    }
+    .productcard_imgdiv{
+        width: 140px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .productcard_imgdiv_img{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    .productcard_detaildiv{
+        color:#0e77ca
+    }
+    .productcard_detaildiv_category{}
+    .productcard_detaildiv_title{
+        height: 36px;
+        line-height: 18px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+    
+    .productcard_priceratingdiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        width: 100%;
+    }
+    .productcard_priceratingdiv_price{
+        font-size: 18px;
+        color: #f85606;
+        letter-spacing: 0.56px;
+        line-height: 22px;
+    }
+    .productcard_priceratingdiv_ratediv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 5px;
+        width: 100%;
+    }
+    .productcard_priceratingdiv_ratediv_title{
+    
+    }
+    .productcard_priceratingdiv_ratediv_datadiv{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .productcard_priceratingdiv_ratediv_datadiv_rangedivmain{
+        width: 70%;
+        height: 20px;
+        border-radius: 5%;
+        border-color: burlywood;
+        background-color: #eff0f5;
+    }
+    .productcard_priceratingdiv_ratediv_datadiv_rangedivmain_range{
+        background-color: #faca51;
+        height: 20px;
+    }
+    .productcard_priceratingdiv_ratediv_datadiv_count{
+        position: relative;
+        right: 9px;
+        top: -1px;
+    }
+
+    .productcard_priceratingdiv_ratediv_cartdiv{
+        display: flex;
+        justify-content: center;
+    }
+    .productcard_priceratingdiv_ratediv_cartdiv_button{}
+    
+    
+  }
+
+

@@ -1,0 +1,111 @@
+.productcard{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid antiquewhite;
+    border-radius: 2%;
+}
+
+.productcard:hover{
+    box-shadow: 1px 1px 4px black;
+}
+.productcard_imgdiv{
+    width: 1789px;
+    height: 93vh;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.productcard_imgdiv_img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.productcard_detaildiv{
+    color: #0e77ca;
+    box-sizing: border-box;
+    padding: 35px;
+}
+.productcard_detaildiv_category{}
+.productcard_detaildiv_title{
+    height: 36px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.productcard_detaildiv_textdiv{} 
+.productcard_detaildiv_textdiv_title{} 
+.productcard_detaildiv_textdiv_text{}
+
+.productcard_priceratingdiv{
+    width: 100%;
+}
+.productcard_priceratingdiv_price{
+    font-size: 18px;
+    color: #f85606;
+    letter-spacing: 0.56px;
+    line-height: 22px;
+}
+.productcard_priceratingdiv_ratediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 5px;
+    width: 100%;
+}
+.productcard_priceratingdiv_ratediv_title{
+
+}
+.productcard_priceratingdiv_ratediv_datadiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.productcard_priceratingdiv_ratediv_datadiv_rangedivmain{
+    width: 70%;
+    height: 20px;
+    border-radius: 5%;
+    border-color: burlywood;
+    background-color: #eff0f5;
+}
+.productcard_priceratingdiv_ratediv_datadiv_rangedivmain_range{
+    background-color: #faca51;
+    height: 20px;
+}
+.productcard_priceratingdiv_ratediv_datadiv_count{
+    position: relative;
+    right: 9px;
+    top: -1px;
+}
+
+.productcard_priceratingdiv_ratediv_cartdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.carttitle{
+    text-align: center;
+    position: relative;
+    border: 1px solid lightblue;
+    border-radius: 16%;
+    height: 32px;
+    width: 55px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productcard_priceratingdiv_ratediv_cartdiv_button{}
+.productcard_priceratingdiv_ratediv_cartdiv_title{}
