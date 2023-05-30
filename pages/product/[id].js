@@ -13,6 +13,7 @@ export default function foo(){
     const [data,setdata]=useState([])
     const [cart_count,setCart_count]=useState(0)
     const cartobject=useSelector(cartobj)
+    console.log("cartobject: ",cartobject)
     const [title,settitle]=useState("Add to Cart")
     const ref_addtocart=useRef("")
     const ref_incdec=useRef("")

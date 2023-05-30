@@ -33,8 +33,8 @@
 }
 .signupLogindiv{
   position: relative;
-  left: 80vw;
-  width: 149px;
+  left: 70vw;
+  width: 200px;
   display: flex;
   justify-content: space-between;
 }
@@ -77,8 +77,8 @@
   }
   .signupLogindiv{
     position: relative;
-    left: 80vw;
-    width: 149px;
+    left: 70vw;
+    width: 200px;
     display: flex;
     justify-content: space-between;
   }

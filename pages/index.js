@@ -79,6 +79,7 @@ export default function Home() {
                 <div className={styles.signupLogindiv}>
                   <Link href={`/signupLogin/${'signup'}`}><Button>signup</Button></Link>
                   <Link href={`/signupLogin/${'login'}`} ><Button>login</Button></Link>
+                  <Link href={`/cart/productsadd_tocart`}><Button>Cart</Button></Link>
                 </div>
                 <Cartcount/>
               </div>
@@ -93,6 +94,22 @@ export default function Home() {
         </Layout>
         {/* <Link href={`/signupLogin/${'signup'}`} >signup</Link>
         <Link href={`/signupLogin/${'login'}`} >login</Link> */}
+
+        
+          
+          <div class="row">
+              <div class="col-xs-9 col-md-7" style={{backgroundColor:"green"}} >.col-xs-9 .col-md-7</div>
+              <div class="col-xs-3 col-md-5" >.col-xs-3 .col-md-5</div>
+          </div>
+          <div class="row">
+              <div class="col-xs-6 col-md-10" >.col-xs-6 .col-md-10</div>
+              <div class="col-xs-6 col-md-2" >.col-xs-6 .col-md-2</div>
+          </div>
+          <div class="row" >
+              <div class="col-xs-6">.col-xs-6</div>
+              <div class="col-xs-6">.col-xs-6</div>
+          </div>
+        
       </>
   )
 }

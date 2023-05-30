@@ -1,0 +1,224 @@
+.main{
+    padding:20px;
+    width: 100vw;
+    height: 100vh;
+}
+.cartcontainer{
+    position: relative;
+    left:1vw;
+    padding:20px;
+}
+.maintitle{
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.cartPricemainContainer{
+    width: 100%;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 1%;
+}
+.cartPricemainContainer::-webkit-scrollbar{
+    width:10px;
+}
+.cartPricemainContainer::-webkit-scrollbar-track{
+    background-color: transparent;
+    
+}
+.cartPricemainContainer::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 10%;
+}
+.titlebar{
+    position:sticky;
+    font-size: 16px;
+    font-weight: 600;
+    /* border-bottom: 1px solid gray; */
+}
+.titlebar_titlediv{
+    display: flex;
+    justify-content: center;
+}
+
+.cartcontainerdiv{}
+.cartContainerdiv_cartItemdiv{}
+.cartContainerdiv_cartItemdiv_imgdiv{
+    padding: 20px;
+}
+.cartContainerdiv_cartItemdiv_imgdiv_subdiv{
+    width:100px;
+    height:100px;
+}
+.cartContainerdiv_cartItemdiv_imgdiv_img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.product_titlediv{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.product_titlediv_title{}
+.cartContainerdiv_cartItemdiv_pricedivmain{
+    display: flex;
+    align-items: center;
+}
+.cartContainerdiv_cartItemdiv_addremovecartdiv{}
+.cartContainerdiv_cartItemdiv_addremovecartdiv_counterbtndiv{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.cartContainerdiv_cartItemdiv_addremovecartdiv_counterbtndiv_btn{
+    display: flex;
+    width: 130px;
+}
+.carttitle{}
+.cartContainerdiv_cartItemdiv_pricedivmain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cartContainerdiv_cartItemdiv_pricedivmain_subdiv{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cartContainerdiv_cartItemdiv_addremovecartdiv_removebtn{}
+.cartPricemainContainer_netPricedivmain{
+    width: 200px;
+    position: relative;
+    left: 50vw;
+}
+.formMain{
+    width: 100%;
+    height: 70vh;
+    margin-top: 83px;
+    box-shadow: 1px 1px 6px black;
+    border-radius: 1%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.formMain::-webkit-scrollbar{
+    display: none;
+}
+
+.maintitletwo{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.paymethoddiv{
+    padding-bottom: 6vh;
+}
+.payMethodBar{
+    display: flex;
+    position: relative;
+    left: 24px;
+    width: 128px;
+    justify-content: space-between;
+}
+.payMethodBartwo{
+    display: flex;
+    position: relative;
+    left: 24px;
+    justify-content: space-between;
+    width: 92px;
+}
+.formtwo{
+
+}
+.inputfield{
+    width: 300px;
+}
+.CardName{
+    position: relative;
+    left: 24px;
+    padding-bottom: 6vh;
+}
+.CardName_inputfld{
+    padding-left:10px;
+}
+
+
+
+
+
+.CardNumber{
+    position: relative;
+    left: 24px;
+    padding-bottom: 6vh;
+}
+.CardNumber_inputfld{
+    padding-left:10px;
+}
+.dateandCvvdiv{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 24px;
+    padding-bottom: 6vh;
+    /* background-color: brown; */
+}
+.datediv{}
+.datediv_inputfld{
+    padding-left:10px;
+}
+.Cvvdiv{}
+.Cvvdiv_inputfld{
+    padding-left:10px;
+}
+
+.expirationdate{
+    position: relative;
+    left: 24px;
+    padding-bottom: 3vh;
+}
+.CVV{
+    position: relative;
+    left: 24px;
+    padding-bottom: 3vh;
+}
+.Cvvinput{
+    width: 40px;
+    border-radius: 2%;
+}
+.checkoutbtndiv{
+    width: 200px;
+    /* display: block; */
+    background-color: brown;
+    /* justify-content: center; */
+}
+.checkoutbtndiv2nd{
+    display: block;
+    width: 200px;
+    height: auto;
+    background-color: brown;
+}
+.backtomainbtn{
+    
+    color: white;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: -10vw;
+}
+
+
+

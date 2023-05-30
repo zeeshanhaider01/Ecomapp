@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.3",
     "next": "latest",
     "react": "^18.2.0",
+    "react-datepicker": "^4.11.0",
     "react-dom": "^18.2.0",
     "react-redux": "^7.2.9",
     "reactstrap": "^9.1.10"
